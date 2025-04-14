@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard] # Includes performance extras like uvloop [6, 7, 9]
+langchain
+langgraph
+langchain-openai # Or other LLM provider packages
+pinecone # Or other vector store clients
+beautifulsoup4
+pydantic
+python-dotenv
+# Add any persistent checkpointer library if not using MemorySaver (e.g., redis, sqlalchemy)
